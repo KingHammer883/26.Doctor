@@ -54,8 +54,8 @@ The other set of data consists of mapping between first-person pronouns, and sec
 
 The main function displays a greeting, displays a prompt, and waits for user input. The following is pseudocode for the main loop:
 	
-	output a greeting to the patient
-	While True
+	Output a greeting to the patient
+	While True:
 		prompt for and input a string from the patient
 		if the string equals "QUIT"
 			output a sign-off message to the patient
